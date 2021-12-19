@@ -1,0 +1,28 @@
+.containerAux {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.aux1,
+.aux2 {
+  width: 600px;
+  margin: 15px;
+}
+
+.position {
+  position: relative;
+}
+
+.etiqueta {
+  position: absolute;
+  bottom: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+}

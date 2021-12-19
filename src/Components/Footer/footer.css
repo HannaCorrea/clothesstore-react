@@ -1,0 +1,29 @@
+.container__terms {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000;
+  justify-content: center;
+}
+
+.container__terms__box {
+  margin: 100px;
+  color: white;
+}
+
+.container__terms__box a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container__terms__box li {
+  margin: 10px 0;
+  list-style: none;
+}
+.container__terms-title {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 0;
+  display: block;
+}

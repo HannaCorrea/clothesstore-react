@@ -1,0 +1,10 @@
+.discountBox {
+  position: absolute;
+  color: white;
+  background-color: #5b17aa;
+  top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4px 8px;
+  left: 10px;
+}

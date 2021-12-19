@@ -1,0 +1,12 @@
+.banIm {
+  width: 100%;
+  display: block;
+}
+
+.banIm:hover {
+  cursor: pointer;
+}
+
+.main-banner .slick-dots {
+  bottom: 10px;
+}
