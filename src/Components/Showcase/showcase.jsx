@@ -15,7 +15,7 @@ function Showcase() {
   };
 
   async function getData() {
-    let data = await fetch("http://localhost:3001/products");
+    let data = await fetch("http://localhost:3000/products");
     data = await data.json();
     setProducts(data);
   }

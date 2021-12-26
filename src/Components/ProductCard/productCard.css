@@ -3,6 +3,16 @@
   border: 2px solid #e6e6e6;
   margin: 10px 20px;
   position: relative;
+  transition: all 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 6px #0000004d;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: #000;
 }
 
 .product-card__image {

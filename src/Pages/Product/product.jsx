@@ -20,6 +20,7 @@ function Product() {
 
   useEffect(function () {
     getData();
+    // eslint-disable-next-line
   }, []);
 
   return product ? (

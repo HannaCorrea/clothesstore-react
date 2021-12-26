@@ -14,9 +14,15 @@
 }
 
 .logo {
+  display: block;
   width: 300px;
   margin-left: 10px;
   margin-right: auto;
+}
+
+.logo img {
+  display: block;
+  width: 100%;
 }
 
 .searchContainer {

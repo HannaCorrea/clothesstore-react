@@ -7,7 +7,9 @@ function Header() {
   return (
     <header className="header__container">
       <div className="container__top">
-        <img className="logo" src={logo} alt="" />
+        <a className="logo" href="/">
+          <img src={logo} alt="" />
+        </a>
         <form className="searchContainer" action="">
           <input type="text" placeholder="Buscar aqui..." />
           <button>
